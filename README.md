@@ -13,5 +13,5 @@ as a 12-bit binary integer.
 
 ## Command
 `LZW {input_file} [e | d]`</br>
-`e` : encode</br>
-`d` : decode
+e = encode</br>
+d = decode
