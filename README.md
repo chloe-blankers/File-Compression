@@ -1,10 +1,8 @@
 # File-Compression
 Implemented Lempel-Ziv-Welch algorithm (lossless data compression algorithm) in C to compress and decompress text files by at least 50%.
 
-
-The dictionary data structure to be used for this assignment has a capacity of 4096 entries (2
-12
-),
+## Dictionary Data Structure
+The dictionary data structure to be used for this assignment has a capacity of 4096 entries,
 of which:
 - the first 256 entries, numbered 0 through 255, are reserved for every possible 1-byte value
 (i.e. entry #0 is for the ASCII NUL character, entry #32 is for the ASCII space character,
