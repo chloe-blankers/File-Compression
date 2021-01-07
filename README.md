@@ -10,3 +10,8 @@ algorithm to represent multi-byte sequences in the input data.
 - the last entry, numbered 4095, is reserved for a padding marker
 The code that refers to an entry in the dictionary is simply the entry’s numeric position, encoded
 as a 12-bit binary integer.
+
+## Command
+`LZW {input_file} [e | d]`
+e: encode
+d: decode
